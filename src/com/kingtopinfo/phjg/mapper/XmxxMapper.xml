@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+	<!--
+	@MapperName com.kingtopinfo.phjg.mapper.XmxxMapper
+	@Description xmxx
+	@author 张秋权  zhangqq@kingtopinfo.com
+	@date 2017-04-10 16:51:51
+	@version 1.0
+	@remark create by generator
+	-->
+	
+<mapper namespace="com.kingtopinfo.phjg.mapper.XmxxMapper">
+	
+	<select id="getCount" resultType="int" parameterType="xmxxEntity">
+		select 
+			count(*)
+		from 
+			xmxx
+	</select>
+	
+	<select id="selectPagination" resultType="xmxxEntity" parameterType="xmxxEntity">
+		select 
+			t.id,t.phjgname,t.xzqh
+		from 
+			xmxx t
+	</select>
+	
+	<select id="selectByPkey" resultType="xmxxEntity" parameterType="String">
+		select 
+			t.id,t.phjgname,t.xzqh
+		from 
+			xmxx t
+		where 
+			id = #{id}
+	</select>
+	
+	<insert id="insert" parameterType="xmxxEntity">
+		insert into xmxx(
+			id,phjgname,xzqh
+		)values(
+			#{id},#{phjgname},#{xzqh}
+		)
+	</insert>
+	
+	<update id="update" parameterType="xmxxEntity">
+		update xmxx
+		set 
+			phjgname = #{phjgname}, xzqh = #{xzqh}
+		where
+			id = #{id}
+	</update>
+	
+	<delete id="delete" parameterType="String">
+		delete from xmxx where id = #{id}
+	</delete>
+	
+</mapper>

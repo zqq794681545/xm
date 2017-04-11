@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<init>
+	<name>zqq</name>
+	<author>张秋权  zhangqq@kingtopinfo.com</author>
+	<type>MySql</type>
+	<driver>com.mysql.jdbc.Driver</driver>
+	<url>jdbc:mysql://localhost:3306/test</url>
+	<username>root</username>
+	<password>root</password>
+	<project>E:\eclipse64\xm</project>
+	<entity>com.kingtopinfo.phjg.entity</entity>
+	<mapper>com.kingtopinfo.phjg.mapper</mapper>
+	<service>com.kingtopinfo.phjg.service</service>
+	<action>com.kingtopinfo.phjg.controller</action>
+	<jspName></jspName>
+	<jspPath></jspPath>
+	<character>utf-8</character>
+</init>

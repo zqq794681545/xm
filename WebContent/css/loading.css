@@ -1,0 +1,10 @@
+._loading{
+	position:absolute;
+	z-index:9999999;
+	width:100%;
+	height:100%;
+	background:#F5F5F5;
+	background-image: url("../image/loading/loading.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}

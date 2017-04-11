@@ -1,0 +1,34 @@
+._search_table th {
+	font-weight: normal;
+	text-align: right;
+}
+._search_table td input {
+	border: #D4D4D4 1px solid;
+	border-radius: 5px;
+	padding: 4px;
+}
+._search_table td input:focus{
+	outline:none;
+	border-color: #bbbbbb;
+	box-shadow: 0 0 3px 0 #d4d4d4;
+}
+._form_table th {
+	font-weight: normal;
+	text-align: right;
+	height: 45px;
+	width: 130px;
+}
+._form_table td {
+	height: 45px;
+	width: 300px;
+}
+._form_table td input {
+	border: #D4D4D4 1px solid;
+	border-radius: 5px;
+	padding: 4px;
+}
+._form_table td input:focus{
+	outline:none;
+	border-color: #bbbbbb;
+	box-shadow: 0 0 3px 0 #d4d4d4;
+}

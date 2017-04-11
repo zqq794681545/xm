@@ -1,0 +1,45 @@
+._search_table th{
+	width: 80px;
+	text-align: right;
+	font-weight: normal;
+}
+input[type=text]{
+   border:1px #95B8E7 solid;
+   height: 25px;
+   font-size: 15px;
+   border-radius:5px;
+}
+input[type=password]{
+   border:1px #95B8E7 solid;height: 25px;
+}
+select{
+   border:1px #95B8E7 solid;height: 22px;
+}
+.labelrequired{
+	color: red;
+	font-size: 15px;
+}
+.label{
+	font-weight: normal;
+	text-align: right;
+	background-color: #E2EDFF;
+	height: 30px;
+	width: 100px;
+}
+
+.field{
+	font-weight: normal;
+	text-align: left;
+	height: 30px;
+	width: 200px;
+}
+.table-view th{
+	text-align:right;
+	background-color: #e3e3e3;
+}
+.edit_table{
+	border-collapse: collapse;
+	border-color: #95B8E7;
+	border:1px solid #95B8E7;
+}
+[readonly]{ background-color: #EBEBE4;}
